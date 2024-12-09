@@ -1,0 +1,53 @@
+@import url("https://use.typekit.net/oji6uxf.css");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  overflow-x: hidden;
+  font-family: "paralucent", sans-serif;
+}
+
+/* .paralucent-light {
+  font-family: "paralucent", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.paralucent-light-italic {
+  font-family: "paralucent", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+
+.paralucent-bold {
+  font-family: "paralucent", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.paralucent-bold-italic {
+  font-family: "paralucent", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.paralucent-condensed-medium {
+  font-family: "paralucent-condensed", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.paralucent-condensed-medium-italic {
+  font-family: "paralucent-condensed", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+} */

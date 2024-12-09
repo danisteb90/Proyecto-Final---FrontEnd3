@@ -1,0 +1,98 @@
+.product-loader {
+  width: 100dvw;
+  height: 100dvh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: white;
+}
+
+.product-loaderIcon {
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.product-detailContainer {
+  width: 90dvw;
+  height: 90dvh;
+  border: 1px solid black;
+  border-radius: 1rem;
+  margin: 5rem;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.product-detail {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  padding: 3rem;
+  position: relative;
+}
+
+.product-detailBackButton {
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+  background-color: transparent;
+  border-radius: 50%;
+  padding: 1rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  transition: all 0.3s ease;
+}
+
+.product-detailBackButton:hover {
+  background-color: #AAFF04;
+}
+
+.product-detailImage {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-right: 1px solid black;
+}
+
+.product-detail img {
+  width: 60%;
+  height: 60%;
+  object-fit: contain;
+}
+
+.product-detailInfo {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.product-detailAddToCartButton {
+  background-color: #AAFF04;
+  border: 1px solid black;
+  border-radius: 1rem;
+  padding: 1rem;
+  cursor: pointer;
+  font-family: "paralucent", sans-serif;
+}
