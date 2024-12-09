@@ -13,7 +13,11 @@ const Products = () => {
 
 	return (
 		<div>
-			<div id="products" className="home-productsContainer">
+			<div
+				id="products"
+				className="home-productsContainer"
+				data-testid="products-container"
+			>
 				{products.map((product) => (
 					<Link
 						to={`/product/${product.id}`}

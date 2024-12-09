@@ -54,6 +54,7 @@ const ProductDetail = () => {
 					<p>{product.description}</p>
 					<button
 						className="product-detailAddToCartButton"
+						role="add-to-cart-button"
 						onClick={() => addToCart(product)}
 					>
 						Agregar al carrito

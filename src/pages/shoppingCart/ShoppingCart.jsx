@@ -16,7 +16,7 @@ const ShoppingCart = () => {
 		}, 500);
 	};
 
-	const { cart, deleteFromCart } = useCart();
+	const { cart, deleteFromCart, clearCart } = useCart();
 	const totalPrice = cart.reduce(
 		(sum, item) => sum + item.price * item.quantity,
 		0
@@ -56,7 +56,11 @@ const ShoppingCart = () => {
 						</div>
 						<button
 							className="shopping-cartCheckoutButton"
-							onClick={() => navigate("/checkout")}
+							onClick={() => {
+								clearCart();
+								navigate("/checkout");
+							}}
+							role="buy-button"
 						>
 							Comprar
 						</button>

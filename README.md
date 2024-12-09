@@ -6,3 +6,5 @@ Pagina Web de ropa con tienda virtual y carrito de compras.
 - Uso de la API https://fakestoreapi.com/ para uso de ropa.
 - Uso de react router para crear rutas de checkout e info de cada prenda.
 - Uso de Context para carrito de compras.
+
+- Demo de la Web: https://proyecto-final-front-end3.vercel.app/
